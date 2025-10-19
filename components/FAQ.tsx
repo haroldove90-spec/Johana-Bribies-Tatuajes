@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { FAQ_DATA } from '../constants';
-import type { FAQItem } from '../types';
+import { FAQ_DATA } from '../constants.ts';
+import type { FAQItem } from '../types.ts';
 
 interface AccordionItemProps {
   item: FAQItem;

@@ -1,13 +1,13 @@
 
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import IdeaGenerator from './components/IdeaGenerator';
-import BookingForm from './components/BookingForm';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import About from './components/About.tsx';
+import Portfolio from './components/Portfolio.tsx';
+import IdeaGenerator from './components/IdeaGenerator.tsx';
+import BookingForm from './components/BookingForm.tsx';
+import FAQ from './components/FAQ.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   return (

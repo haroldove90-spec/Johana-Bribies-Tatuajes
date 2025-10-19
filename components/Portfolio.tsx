@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { PORTFOLIO_IMAGES } from '../constants';
+import { PORTFOLIO_IMAGES } from '../constants.ts';
 
 const Portfolio: React.FC = () => {
   return (

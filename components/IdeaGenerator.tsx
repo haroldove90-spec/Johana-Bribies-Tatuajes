@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { generateTattooIdeas } from '../services/geminiService';
-import type { TattooIdea } from '../types';
+import { generateTattooIdeas } from '../services/geminiService.ts';
+import type { TattooIdea } from '../types.ts';
 
 const IdeaGenerator: React.FC = () => {
   const [prompt, setPrompt] = useState<string>('');

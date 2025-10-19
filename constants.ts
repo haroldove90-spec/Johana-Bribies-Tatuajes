@@ -1,5 +1,5 @@
 
-import type { FAQItem } from './types';
+import type { FAQItem } from './types.ts';
 
 export const NAV_LINKS = [
   { name: 'About', href: '#about' },
